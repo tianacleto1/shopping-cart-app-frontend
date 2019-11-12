@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PageHeaderComponent } from './page-header/page-header.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PageHeaderComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+header .top {
+    background-color: #1e94d2;
+    width: 100%;
+    padding: 10px 0;
+}
+
+p {
+    font-style: bold;
+    text-align: center;
+    font-size: 150%;
+}
