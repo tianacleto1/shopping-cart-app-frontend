@@ -4,8 +4,8 @@ header .top {
     padding: 10px 0;
 }
 
-p {
+h1 {
     font-style: bold;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }

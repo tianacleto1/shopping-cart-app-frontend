@@ -7,10 +7,6 @@ body {
     width: 150px;
 }
 
-.col-data {
-    text-align: center;
-}
-
-.col-numero {
+.col-number {
     text-align: right;
 }
