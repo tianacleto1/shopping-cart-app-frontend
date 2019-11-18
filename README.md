@@ -1,5 +1,10 @@
 # ShoppingCartAppFrontend
 
+Shopping Cart Frontend App
+
+Technologies: 
+    Angular 8, PrimeNg
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
 ## Development server

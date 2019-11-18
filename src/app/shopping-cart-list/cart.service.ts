@@ -7,11 +7,15 @@ import { Observable } from 'rxjs';
 })
 export class CartService {
 
-  private apiEndpoint = 'http://localhost:8080';
+  private apiEndpoint = 'http://localhost:8080/api/shopping_cart';
 
   constructor(private http: HttpClient) { }
 
   getCart(): Observable<any> {
-    return this.http.get<any>(`${this.apiEndpoint}/api/shopping_cart/carts`);
+    return this.http.get<any>(`${this.apiEndpoint}/carts`);
+  }
+
+  getItems(): Observable<any> {
+    return this.http.get<any>(`${this.apiEndpoint}/items`);
   }
 }
